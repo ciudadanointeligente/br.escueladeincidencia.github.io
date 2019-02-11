@@ -27,20 +27,25 @@ mark {
     }
 }
 
+mark.mark-white{
+  background-color: $blue;
+}
+
 .navbar-home{
   padding: 20px 15px 20px 15px;
   min-height: 110px;
   background-color: transparent;
   border: none;
   position: absolute;
-  top: -3px;
+  top: 45px;
   width: 100%;
   .navbar-nav>li>mark>a{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: white;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
+    letter-spacing: 0.7px;
   }
   .navbar-nav>li{
     margin: 0 5px 0 5px;
@@ -67,15 +72,15 @@ mark {
     a{
       color: white;
       text-decoration: none;
-      font-size: 14px;
+      font-size: 12px;
     }
   }
   .navbar-nav>li.nav-item{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: white;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     &:hover{
       color: $yellow;
     }
@@ -108,15 +113,15 @@ li.nav-item.rrss{
 }
 
 h1{
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 h2{
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 h3{
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 h4{
@@ -132,13 +137,15 @@ h4{
 }
 
 .welcome{
-  margin-top: 120px;
+  margin-top: 0px;
 }
 .w-100{
   height: 100%;
 }
 .about{
-  margin-top: -160px;
+  margin-top: -212px;
+  background-color: $yellow;
+  padding: 100px 15px;
 }
 section.filters{
   margin-top: 60px;
@@ -158,20 +165,20 @@ section.cases{
 
 .welcome-text{
   position: relative;
-  top: -310px;
+  top: -280px;
 }
 
 .welcome-black{
   background-color: black;
   color: white;
-  padding: 5px 10px 0;
+  padding: 5px 10px 1px;
   margin-bottom: 5px;
   width: fit-content;
 }
 .welcome-white{
   background-color: white;
   color: black;
-  padding: 5px 10px;
+  padding: 5px 14px 1px;
 }
 
 .legend{
@@ -253,10 +260,19 @@ p.bio{
     }
 }
 
+.footer-logos{
+  margin-top: 30px;
+  padding-left: 15px;
+}
+
+.logo-footer{
+  margin-top: 15px;
+}
+
 #footer_links {
-  padding-top: 20px;
+  padding-top: 30px;
   li.list-inline-item {
-    padding: 0px 20px;
+    padding: 0 20px 0 0;
   }
 }
 
@@ -291,7 +307,7 @@ p.bajada{
   border: 3px solid black;
   border-radius: 20px;
   font-weight: 700;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 10px;
   &:hover{
     background-color: white;
@@ -306,8 +322,10 @@ p.bajada{
   border: 3px solid $yellow;
   border-radius: 20px;
   font-weight: 700;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 10px;
+  word-wrap: break-word;
+  white-space: normal;
   &:hover{
     background-color: white;
     color: black;
@@ -321,7 +339,7 @@ p.bajada{
   border: 3px solid $red;
   border-radius: 20px;
   font-weight: 700;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 10px;
   &:hover{
     background-color: white;
@@ -365,14 +383,14 @@ p.bajada{
   font-weight: 300;
   h4{
     color: black;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
   .label{
     background-color: $blue;
     font-size: 12px;
   }
   label{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 11px;
@@ -394,13 +412,21 @@ section.newsletter{
 }
 
 section.escuela-2018{
-  background-color: $red;
+  background-color: $blue;
   color: white;
   padding: 20px 15px 20px;
 }
 
 section.faq{
   margin-top: 60px;
+}
+
+.logo-pr-ea{
+ padding: 50px 0 0;
+}
+
+.logo-pr-fci{
+  padding: 70px 0 0;
 }
 
 .badge-blue{
@@ -410,7 +436,7 @@ section.faq{
   margin: 30px 0 6px;
   color: white;
   padding: 16px 11px;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1;
   min-height: 50px;
 }
@@ -421,7 +447,7 @@ section.faq{
   margin: 30px 0 6px;
   color: white;
   padding: 16px 11px;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1;
   min-height: 50px;
 }
@@ -432,7 +458,7 @@ section.faq{
   margin: 30px 0 6px;
   color: white;
   padding: 16px 11px;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1;
   min-height: 50px;
 }
@@ -463,8 +489,13 @@ section.faq{
 i.fa.fa-bars{
   color: black;
 }
-
-
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 @media (max-width: 1199px) {
   .welcome-black{
@@ -552,6 +583,22 @@ i.fa.fa-bars{
 @media (max-width: 450px) {
   .navbar-brand{
     margin-right: 10rem;
+  }
+  .navbar-home{
+  }
+  .welcome-black h1{
+    font-size: 22px;
+  }
+  .welcome-white h2{
+    font-size: 20px;
+  }
+  .about {
+    margin-top: -210px;
+  }
+  .videoWrapper iframe{
+    position: initial;
+    width: 100%;
+    height: 100%;
   }
 }
 
